@@ -1,0 +1,17 @@
+
+
+	<div class="row">
+		<div class="col-9" style="margin: 0;">
+			<div class="burger-name">
+				{{name}}
+			</div>
+		</div>
+		{{#if eaten}}<div class="col-3" style="margin: 0; padding: 0;">
+			<button class="change-eat" data-id="{{id}}" data-newsleep="{{eaten}}">EAT!</button>
+		</div>
+		{{else}}
+		<div class="col-3" style="margin: 0; padding: 0;">
+			<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+		</div>
+		{{/if}}
+	</div>
