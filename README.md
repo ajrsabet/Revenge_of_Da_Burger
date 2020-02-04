@@ -6,7 +6,7 @@ https://dats-da-burger.herokuapp.com/
 ![Screenshot](./public/assets/images/Burger_Screenshot.png)
 
 ## Discription
-This application is a burger counter using MySQL, Heroku, JawsDB, Node, Express, Handlebars and a homemade ORM
+This application is a burger counter using MySQL, Heroku, JawsDB, Node, Express, Handlebars and Sequelize
 
 ## Use
 Open the link above and add to my burgers! Then you can track all of your burger eating but it would be combined with all of my burger eating and we may get confused... Maybe we should deploy sepparate instances so we can both count our own burgers and not get confused. If you would like to do this follow the steps below.

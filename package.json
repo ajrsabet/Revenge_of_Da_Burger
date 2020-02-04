@@ -1,21 +1,27 @@
 {
-  "name": "mvc_design",
+  "name": "revenge_of_da_burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://dats-da-burger.herokuapp.com/",
   "main": "server.js",
-  "start": "node server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajrsabet/Revenge_of_Da_Burger.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+  "bugs": {
+    "url": "https://github.com/ajrsabet/Revenge_of_Da_Burger/issues"
   },
-  "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
+  "homepage": "https://github.com/ajrsabet/Revenge_of_Da_Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
   }
 }
