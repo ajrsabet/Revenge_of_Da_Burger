@@ -2,16 +2,16 @@
 $(function() {
   $(".change-eat").on("click", function(event) {
     const id = $(this).data("id");
-    const newSleep = $(this).data("newsleep");
+    const eaten = $(this).data("eaten");
 
-    const newSleepState = {
-      eaten: newSleep
+    const eatenState = {
+      eaten: eaten
     };
 
     // Send the PUT request.
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
-      data: newSleepState
+      data: eatenState
     }).then(
       function() {
         // Reload the page to get the updated list

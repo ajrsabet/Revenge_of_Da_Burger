@@ -1,5 +1,5 @@
 'use strict';
-
+// required packages
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');

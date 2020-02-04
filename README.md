@@ -1,15 +1,15 @@
 # Dats Da Burger
 
 ## Deployed Link
-https://dats-da-burger.herokuapp.com/
+https://revenge-of-da-burger.herokuapp.com/
 
 ![Screenshot](./public/assets/images/Burger_Screenshot.png)
 
-## Discription
+## Description
 This application is a burger counter using MySQL, Heroku, JawsDB, Node, Express, Handlebars and Sequelize
 
 ## Use
-Open the link above and add to my burgers! Then you can track all of your burger eating but it would be combined with all of my burger eating and we may get confused... Maybe we should deploy sepparate instances so we can both count our own burgers and not get confused. If you would like to do this follow the steps below.
+Open the link above and add to my burgers! Then you can track all of your burger eating but it would be combined with all of my burger eating and we may get confused... Maybe we should deploy separate instances so we can both count our own burgers and not get confused. If you would like to do this follow the steps below.
 
 ## Deployment
 
@@ -35,7 +35,7 @@ Open the link above and add to my burgers! Then you can track all of your burger
   
   Heroku deployment:
   - Create a new Heroku app by following the directions at: https://devcenter.heroku.com/articles/creating-apps
-  - Open your new Heroku app by loging into your account or, if you setup the project through your CLI, by following the link provided (example: https://git.heroku.com/example.git)
+  - Open your new Heroku app by logging into your account or, if you setup the project through your CLI, by following the link provided (example: https://git.heroku.com/example.git)
   - Click on "Configure Add-ons" and search for "JawsDB MySQL"
   - Setup JawsDB by following the documentation at: https://devcenter.heroku.com/articles/jawsdb
   - Files to modify:
@@ -52,7 +52,7 @@ Open the link above and add to my burgers! Then you can track all of your burger
       - "Username" = "Username"
       - "Password" click "Store in Vault..." = "Password"
   - Push your changes to Github
-  - CLI comand: "git push heroku master"
+  - CLI command: "git push heroku master"
   - Open your Heroku deployed link
 
   # Now you will never spend a day forgetting the burgers that you have enjoyed for the rest of your life!
